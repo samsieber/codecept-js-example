@@ -1,9 +1,11 @@
 {
 	"private": true,
 	"scripts": {
-	    "test": "codeceptjs runs"
+	    "test": "codeceptjs run"
   	},
 	"devDependencies": {
-		"codeceptjs": "^0.4.7"
+		"codeceptjs": "^0.4.6",
+		"nightmare": "^2.7.0",
+		"nightmare-upload":"^0.1.1"
 	}
 }

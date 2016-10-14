@@ -1,6 +1,9 @@
+Feature('example_test.js');
 
-Feature('Example.js');
-
-Scenario('test something', (I) => {
-
+Scenario('search', (I) => {
+  I.amOnPage('http://yahoo.com');
+  I.fillField('p', 'github nightmare');
+  I.click('Search Web');
+  I.waitForElement('#main');
+  I.seeElement('#main .searchCenterMiddle li a');
 });
