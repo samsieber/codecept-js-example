@@ -1,0 +1,9 @@
+{
+	"private": true,
+	"scripts": {
+	    "test": "codeceptjs runs"
+  	},
+	"devDependencies": {
+		"codeceptjs": "^0.4.7"
+	}
+}
