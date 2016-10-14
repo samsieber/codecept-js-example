@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"scripts": {
-	    "test": "codeceptjs run"
+	    "test": "codeceptjs run --steps"
   	},
 	"devDependencies": {
 		"codeceptjs": "^0.4.6",

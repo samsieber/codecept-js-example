@@ -1,4 +1,4 @@
-Feature('example_test.js');
+Feature('Example.js');
 
 Scenario('search', (I) => {
   I.amOnPage('http://yahoo.com');
