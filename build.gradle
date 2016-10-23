@@ -11,3 +11,5 @@ node {
 npm_test { 
     dependsOn 'npmInstall'
 }
+
+defaultTasks 'npm_test'
