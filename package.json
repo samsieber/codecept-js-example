@@ -5,6 +5,7 @@
   	},
 	"devDependencies": {
 		"codeceptjs": "^0.4.7",
-		"nightmare": "^2.7.0"
+		"nightmare": "^2.7.0",
+		"nightmare-upload": "^0.1.1"
 	}
 }
